@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --corMirage: #181b24;
+    --corCinder: #14161d;
+    --corBlack: #000000;
+    --corConcrete: #f2f2f2;
+    --corWhite: #ffffff;
+    --corMineShaft: #222222;
+    --corMineShaft2: #272727;
+    --corAbbey: #46494c;
+    --corAbbey2: #46494c80;
+    --corTundora: #484848;
+    --corAlto: #d9d9d9;
+    --corChathamsBlue: #105f74;
+    --corDodgerBlue: #22a2f2;
+    --fonte: "Roboto", sans-serif;
+    
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--corMirage);
+    font-family: 'Inter', Verdana, sans-serif;
+}

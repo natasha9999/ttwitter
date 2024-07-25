@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTwitter | Home</title>
+    <link rel="stylesheet" href="../assets/css/padrao.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <span id="cabecalho-span"><img src="../assets/img/logo_pequeno.png" alt="Logotipo TTwitter" id="cabecalho-logo"></span>
+        <div id="barra-pesquisa">
+            <input type="text" placeholder="Buscar" id="barra-pesquisa-input">
+            <button id="barra-pesquisa-botao"><img src="../assets/img/pesquisa.png" alt="Imagem da lupa de pesquisa"></button>
+        </div>
+    </header>
+    <main id="conteudo-principal">
+        <nav id="menu-lateral">
+            <a href="./index.html" class="menu-lateral-link"><img src="../assets/img/home.png" alt="Home" class="menu-lateral-img"></a>
+            <a href="#" class="menu-lateral-link"><img src="../assets/img/notificacao.png" alt="Notificações" class="menu-lateral-img"></a>
+            <a href="#" class="menu-lateral-link"><img src="../assets/img/comentario2.png" alt="Comentários" class="menu-lateral-img"></a>
+            <a href="#" class="menu-lateral-link"><img src="../assets/img/configuracao.png" alt="Configuração" class="menu-lateral-img"></a>
+        </nav>
+        <section id="container-postagem">
+            <div id="escrever-post">
+                <div id="escrever-post-textarea">
+                    <textarea name="post-usuario" id="textarea-post-usuario" placeholder="No que está pensando...?"></textarea>
+                </div>
+                <div id="escrever-post-imgs-botao">
+                    <div id="escrever-post-imgs">
+                        <div>
+                            <label for="arquivo" id="escrever-post-label"><img src="../assets/img/foto.png" alt=""></label>
+                            <input type="file" name="arquivo" id="arquivo" accept="image/gif, image/png, image/jpg, image/jpeg">
+                        </div>
+                        <img src="../assets/img/emoji.png" alt="">
+                        <img src="../assets/img/link.png" alt="">
+                    </div>
+                    <input type="submit" value="Postar" id="botao-postar">
+                </div>
+            </div>
+            <div id="posts">
+                <img src="../assets/img/pessoa.svg" alt="" id="posts-img-usuario">
+                <div id="posts-container-informacoes">
+                    <div id="posts-informacoes-usuario">
+                        <div class="menu-pessoas-img-perfil"></div>
+                        <a href="#" class="menu-pessoas-usuario">@usuario</a>
+                    </div>
+                    <div id="posts-informacoes-post">
+                        <img src="../assets/img/comentario1.png" alt="" class="posts-informacoes-post-img">
+                        <img src="../assets/img/joinha.png" alt="" class="posts-informacoes-post-img">
+                        <img src="../assets/img/coracao.png" alt="" class="posts-informacoes-post-img">
+                    </div>
+                </div>
+                <div id="div-comentario-posts">
+                    <p id="comentario-posts">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+                </div>
+            </div>
+        </section>
+        <div id="menu-pessoas">
+            <p id="menu-pessoas-titulo">Pessoas que você talvez conheça</p>
+            <div class="menu-pessoas-items">
+                <div class="menu-pessoas-img-perfil"></div>
+                <a href="#" class="menu-pessoas-usuario">@usuario</a>
+                <button class="menu-pessoas-botao-adicionar">Adicionar</button>
+            </div>
+            <div class="menu-pessoas-items">
+                <div class="menu-pessoas-img-perfil"></div>
+                <a href="#" class="menu-pessoas-usuario">@usuario</a>
+                <button class="menu-pessoas-botao-adicionar">Adicionar</button>
+            </div>
+            <div class="menu-pessoas-items">
+                <div class="menu-pessoas-img-perfil"></div>
+                <a href="#" class="menu-pessoas-usuario">@usuario</a>
+                <button class="menu-pessoas-botao-adicionar">Adicionar</button>
+            </div>
+            <div class="menu-pessoas-items">
+                <div class="menu-pessoas-img-perfil"></div>
+                <a href="#" class="menu-pessoas-usuario">@usuario</a>
+                <button class="menu-pessoas-botao-adicionar">Adicionar</button>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="../assets/js/script.js"></script>
+</html>

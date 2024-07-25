@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTwitter | Login</title>
+    <link rel="stylesheet" href="../assets/css/padrao.css">
+    <link rel="stylesheet" href="../assets/css/login.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="logo">
+                <img src="../assets/img/logo_grande.svg" alt="Logotipo TTwitter" id="logo-ttwitter">
+            </div>
+            <div id="formulario">
+                <h1 id="formulario-titulo">Bem vindo a plataforma TTwitter</h1>
+                <form action="" autocomplete="on">
+                    <div class="formulario-campo">
+                        <label for="usuario-email" class="label-input">Email</label>
+                        <input type="email" name="email" id="usuario-email" class="campo-input" placeholder="exemplo@email.com" autocomplete="email" required>
+                    </div>
+                    <div class="formulario-campo">
+                        <label for="senha" class="label-input">Senha</label>
+                            <input type="password" name="senha" id="senha" class="campo-input" placeholder="" autocomplete="current-password" required> 
+                            <span class="material-symbols-outlined">visibility</span>
+                         <div id="container-circle">
+                             <img src="../assets/img/circle.png" alt="circled" class="icon-senha1"/>
+                             <img src="../assets/img/circle.png" alt="circled" class="icon-senha2"/>
+                             <img src="../assets/img/circle.png" alt="circled" class="icon-senha3"/>
+                             <img src="../assets/img/circle.png" alt="circled" class="icon-senha4"/>
+                             <img src="../assets/img/circle.png" alt="circled" class="icon-senha5"/>
+                             <img src="../assets/img/circle.png" alt="circled" class="icon-senha6"/>
+                             <img src="../assets/img/circle.png" alt="circled" class="icon-senha7"/>
+                             <img src="../assets/img/circle.png" alt="circled" class="icon-senha8"/>
+                             <img src="../assets/img/circle.png" alt="circled" class="icon-senha9"/>
+                         </div>
+                    </div>
+                    <a href="#" id="esqueci-senha">Esqueci minha senha</a>
+                    <div>
+                        <a href="../pages/index.html"><input type="submit" value="Entrar" id="botao-entrar"></a> 
+                    </div>
+                    <div id="formulario-registrar">
+                        <a href="../pages/cadastro.html" id="formulario-registrar-link">Registrar</a>
+                    </div>
+                    <div id="formulario-termos-condicoes">
+                        <p id="termos-condicoes">Li e estou de acordo com os <a href="#" class="termos-condicoes-link">Termos</a> e <a href="#" class="termos-condicoes-link">Condições de<br> uso.</a></p>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="../assets/js/script.js"></script>
+</html>

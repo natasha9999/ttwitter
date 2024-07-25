@@ -1,0 +1,205 @@
+#login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#logo-ttwitter {
+    width: 250px;
+    height: 250px;
+}
+
+#formulario {
+    width: 500px;
+    height: 567px;
+    background-color: var(--corConcrete);
+    border-radius: 20px;
+    padding: 50px 77px;
+}
+
+#formulario-titulo {
+    color: var(--corMineShaft);
+    font-size: 24px;
+    line-height: 29.05px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-left: -14px;
+}
+
+.formulario-campo {
+    margin-bottom: 20px;
+}
+
+.label-input {
+    background-color: var(--corConcrete);
+    position: absolute;
+    width: 46.43px;
+    height: 15px;
+    color: var(--corMineShaft);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    padding: 0px 4px;
+    z-index: 10;
+}
+
+.material-symbols-outlined {
+    position: absolute;
+    z-index: 11;
+    cursor: pointer;
+    margin: 21px 0px 0px -40px;
+}
+
+.campo-input {
+    width: 360px;
+    height: 50px;
+    border: 1px solid var(--corMineShaft);
+    border-radius: 6px;
+    padding: 13px 15px;
+    margin-top: 8px;
+    margin-left: -14px;
+    line-height: 24px;
+    font-size: 16px;
+    outline: none;
+    position: relative;
+    z-index: 4;
+    cursor: pointer;
+}
+
+.campo-input:focus {
+    color: var(--corAbbey2);
+    z-index: 8;
+}
+
+#senha:focus {
+    font-size: 40px;
+}
+
+#container-circle {
+    z-index: 6;
+    display: grid;
+}
+
+.icon-senha1, .icon-senha2, .icon-senha3, .icon-senha4, .icon-senha5, .icon-senha6, .icon-senha7, .icon-senha8, .icon-senha9 {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    z-index: 7;
+}
+
+.icon-senha1 {
+    transform: translate(-4%, -250%);
+}
+
+.icon-senha2 {
+    transform: translate(150%, -250%); 
+}
+
+.icon-senha3 {
+    transform: translate(300%, -250%); 
+}
+
+.icon-senha4 {
+    transform: translate(450%, -250%); 
+}
+
+.icon-senha5 {
+    transform: translate(600%, -250%); 
+}
+
+.icon-senha6 {
+    transform: translate(750%, -250%); 
+}
+
+.icon-senha7 {
+    transform: translate(900%, -250%); 
+}
+
+.icon-senha8 {
+    transform: translate(1050%, -250%); 
+}
+
+.icon-senha9 {
+    transform: translate(1200%, -250%); 
+}
+
+#esqueci-senha {
+    text-decoration: none;
+    color: var(--corChathamsBlue);
+    font-size: 16px;
+    font-weight: 400;
+    float: right;
+    margin-bottom: 40px;
+}
+
+input[type="submit"] {
+    width: 360px;
+    height: 49px;
+    background-color: var(--corChathamsBlue);
+    color: var(--corWhite);
+    border: none;
+    padding: 15px  20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-left: -14px;
+    cursor: pointer;
+}
+
+#formulario-registrar {
+    width: 360px;
+    height: 24px;
+    text-align: center;
+    margin: 0px 0px 40px -13px;
+}
+
+#formulario-registrar-link {
+    text-decoration: none;
+    color:  var(--corChathamsBlue);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+#formulario-termos-condicoes {
+    width: 447px;
+    height: 48px;
+    padding: 0px 10px;
+}
+
+#termos-condicoes {
+    width: 360px;
+    height: 48px;
+    color: var(--corMineShaft2);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-left: -14px;
+    padding: 0px 8px;
+}
+
+.termos-condicoes-link {
+    color: var(--corChathamsBlue);
+}
+
+/* Responsividade*/
+@media screen and (max-width: 768px) {
+    #login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -150px;
+        margin-bottom: 20px;
+    }
+
+    #logo {
+        margin-bottom: 20px;
+    }
+}
